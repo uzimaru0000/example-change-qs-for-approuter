@@ -40,7 +40,7 @@ export const SearchOption: React.FC<Props> = ({ filter, categories }) => {
       <label className="flex flex-row space-x-1">
         <span>Title: </span>
         <input
-          className="border rounded-md"
+          className="border rounded-md p-1"
           defaultValue={filter.title}
           onChange={handleChangeTitle}
         />
